@@ -1,0 +1,36 @@
+[project]
+name = "platzi-sklearn"
+version = "0.1.0"
+description = "Sklearn for Data Science with Python"
+authors = [{ name = "Jason", email = "jasonssdev@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "jupyterlab",
+    "notebook",
+    "ipykernel",
+    "ipywidgets",
+    "python-dotenv",
+    "openpyxl",
+    "xlrd",
+    "statsmodels",
+    "pathlib",
+    "scikit-learn",
+    "imbalanced-learn",
+    "category_encoders",
+    "yellowbrick",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
