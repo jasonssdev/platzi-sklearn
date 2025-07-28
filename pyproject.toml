@@ -23,6 +23,8 @@ dependencies = [
     "imbalanced-learn",
     "category_encoders",
     "yellowbrick",
+    "joblib",
+    "scipy",
 ]
 
 [build-system]
